@@ -37,4 +37,8 @@ TenderloveLiveStreamingDemo::Application.configure do
 
   # In development, use an in-memory queue for queueing
   config.queue = Rails::Queueing::Queue
+
+  # from http://tenderlovemaking.com/2012/07/30/is-it-live.html#parallel-requests
+  config.preload_frameworks = true
+  config.allow_concurrency = true
 end
