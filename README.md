@@ -9,7 +9,7 @@ Every aspect of Rails is frozen in vendor/cache, so this demo should always work
 In one terminal, start the Rails app in development mode:
 
 ```
-puma
+$ puma
 ```
 
 Go to [http://localhost:9292/users](http://localhost:9292/users) to see the application.
