@@ -43,7 +43,7 @@ GIT
       sprockets (~> 2.4.3)
 
 PATH
-  remote: /Users/drnic/gems/rails
+  remote: vendor/cache/rails
   specs:
     actionmailer (4.0.0.beta)
       actionpack (= 4.0.0.beta)
